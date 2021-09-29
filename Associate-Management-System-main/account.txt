@@ -1,0 +1,16 @@
+4,Dareen Aleksandrov,daleksandrov3@hud.gov,9472572947,IOT,15620,14620,3,5206.666667,17-06-2021,17-07-2021
+5,Devi Kempstone,dkempstone4@sun.com,9362452857,GCP,11440,10440,4,2860,19-01-2021,19-02-2021
+6,Lars Fossett,lfossett5@ca.gov,9236939558,Tableau,7300,6300,3,2433.333333,08-06-2021,08-07-2021
+9,Coleman Klimecki,cklimecki8@va.gov,9623561725,Python,12450,11450,1,12450,15-01-2021,15-02-2021
+10,Cybill Wingfield,cwingfield9@ucsd.edu,9116467927,Salesforce,28480,27480,4,7120,18-04-2021,18-05-2021
+16,Brandy Chamberlen,bchamberlenf@forbes.com,9521058399,Linux,9350,8350,1,9350,07-01-2021,07-02-2021
+22,Bernardina Corre,bcorrel@businessweek.com,9731904125,Big Data,21600,20600,1,21600,30-04-2021,30-05-2021
+26,Hortense Laydel,hlaydelp@ow.ly,9377312808,Data Science,29400,28400,2,14700,24-04-2021,24-05-2021
+27,Lowrance Matthiesen,lmatthiesenq@va.gov,9053342323,IOT,19800,18800,2,9900,20-04-2021,20-05-2021
+32,Titus Woolston,twoolstonv@edublogs.org,9661016021,Data Science,30800,29800,4,7700,12-02-2021,12-03-2021
+54,Hailee Reveland,hreveland1h@1688.com,9398579120,Cyber Security,35690,34690,3,11896.66667,14-03-2021,14-04-2021
+69,Dredi Enga,denga1w@istockphoto.com,9881823109,Ruby on Rails,12580,11580,3,4193.333333,28-06-2021,28-07-2021
+79,Webster Krojn,wkrojn26@prweb.com,9630157351,DevOps,21000,20000,2,10500,23-05-2021,23-06-2021
+88,Abagail Littledyke,alittledyke2f@merriam-webster.com,9510621242,AWS,15200,14200,3,5066.666667,29-03-2021,29-04-2021
+98,Odele Blues,oblues2p@qq.com,9656446205,AI,32000,31000,3,10666.66667,20-01-2021,20-02-2021
+100,Derrick Marcq,dmarcq2r@so-net.ne.jp,9059350048,AWS,18800,17800,1,18800,22-02-2021,22-03-2021
