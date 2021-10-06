@@ -39,7 +39,7 @@ SQL and MySQL
           laod data local inpath '/home/Desktop/table_main.csv/' into table temp;
           
           
- 3.create a master table in ORC format and load data from temp to ORC main table
+3. create a master table in ORC format and load data from temp to ORC main table
             create table Student_details(id int, name string, mail string, mobile string, course string, age int, gender string, fee int, discount string, status1 string, status2 string)stored as                                             orctblproperties('transactional'='true');
           insert into Student_details select * from temp;
           
@@ -51,7 +51,7 @@ SQL and MySQL
           
           
           
-5.create enrolled table and load the data
+5. create enrolled table and load the data
        create table enrolled(id int, name string, mail string, contact string, course string, enroll_status1 string,enroll_status2 string)stored as orc tblproperties('transactional'='true');
        insert into enrolled select id,name,mail,mobile,course,status1,status2 from Student_details where status1='J';          
          
