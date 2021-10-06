@@ -61,8 +61,17 @@ SQL and MySQL
 
        create table enrolled(id int, name string, mail string, contact string, course string, enroll_status1 string,enroll_status2 string)stored as orc tblproperties('transactional'='true');
        insert into enrolled select id,name,mail,mobile,course,status1,status2 from Student_details where status1='J';          
-         
 
+# Roles and Responsibilities:-
+collected dataset from Kaggle.com
+Performed different commands filter the data
+Performed some preprocessing to create schema 
+Created table Master and Inserted the data into master table:
+Created Demo table and loaded the data into Demo table
+Created Transaction table and loaded the data into Transaction table
+Created Enroll table and loaded the data into Enroll table
+Used various commands to  fetch required data from the tables
+Tried to enable the ACID properties of hive table using the ORC data
           
 # Contributors
 Developer : Anand
