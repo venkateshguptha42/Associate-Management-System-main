@@ -44,7 +44,7 @@ SQL and MySQL
           insert into Student_details select * from temp;
           
           
-4 - create demo_table in ORC format
+4. create demo_table in ORC format
           create table demo_table(id int, name string, mail string, contact string, course string, demo_status1 string,demo_status2 string)stored as orc tblproperties('transactional'='true');
 
           insert into demo_table select id,name,mail,mobile,course,status1,status2 from Student_details where status1='DS' or status1='DM' or status1 = 'DD';
