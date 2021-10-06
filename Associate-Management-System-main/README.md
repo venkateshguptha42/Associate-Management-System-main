@@ -63,15 +63,15 @@ SQL and MySQL
        insert into enrolled select id,name,mail,mobile,course,status1,status2 from Student_details where status1='J';          
 
 # Roles and Responsibilities:-
-collected dataset from Kaggle.com
-Performed different commands filter the data
-Performed some preprocessing to create schema 
-Created table Master and Inserted the data into master table:
-Created Demo table and loaded the data into Demo table
-Created Transaction table and loaded the data into Transaction table
-Created Enroll table and loaded the data into Enroll table
-Used various commands to  fetch required data from the tables
-Tried to enable the ACID properties of hive table using the ORC data
+1.collected dataset from Kaggle.com
+2.Performed different commands filter the data
+3.Performed some preprocessing to create schema 
+4.Created table Master and Inserted the data into master table:
+5.Created Demo table and loaded the data into Demo table
+6.Created Transaction table and loaded the data into Transaction table
+7.Created Enroll table and loaded the data into Enroll table
+8.Used various commands to  fetch required data from the tables
+9.Tried to enable the ACID properties of hive table using the ORC data
           
 # Contributors
 Developer : Anand
