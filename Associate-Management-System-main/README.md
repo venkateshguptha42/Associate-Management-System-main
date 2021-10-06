@@ -32,16 +32,25 @@ SQL and MySQL
 1. create the data base. 
         create database project1
         use database project1
+        
+        
 2. create table temporary master in the format of textfile and load the data
           create table temp(id int, name string, mail string, mobile string, course string, age int, gender string, fee int, discount string, status1 string, status2 string)row format delimited fields terminated by ',' stored as             textfile;
           laod data local inpath '/home/Desktop/table_main.csv/' into table temp;
+          
+          
  3.create a master table in ORC format and load data from temp to ORC main table
             create table Student_details(id int, name string, mail string, mobile string, course string, age int, gender string, fee int, discount string, status1 string, status2 string)stored as                                             orctblproperties('transactional'='true');
           insert into Student_details select * from temp;
+          
+          
 4 - create demo_table in ORC format
           create table demo_table(id int, name string, mail string, contact string, course string, demo_status1 string,demo_status2 string)stored as orc tblproperties('transactional'='true');
 
           insert into demo_table select id,name,mail,mobile,course,status1,status2 from Student_details where status1='DS' or status1='DM' or status1 = 'DD';
+          
+          
+          
 5.create enrolled table and load the data
        create table enrolled(id int, name string, mail string, contact string, course string, enroll_status1 string,enroll_status2 string)stored as orc tblproperties('transactional'='true');
        insert into enrolled select id,name,mail,mobile,course,status1,status2 from Student_details where status1='J';          
